@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	margin: 15px;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.75em;
+}
+
+
+.section-content {
+	position: relative;
+	border: 1px solid black;
+	margin: 10px;
+	background-color: #e0e0d1;
+	overflow: hidden;
+}
+
+
+h2 {
+	float: right;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	margin: 0;
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 1.25em;
+}
+
+.section-content > p {
+	clear: both;
+	padding: 15px;
+	text-align: justify;
+	margin: 0;
+}
+
+#blue {
+	background-color: blue;
+	color: white;
+}
+
+#red {
+	background-color: red;
+	color: white;
+}
+
+#yellow {
+	background-color: yellow;
+}
+
+/*** Desktop ***/
+@media (min-width: 992px) {
+	/* classes included */
+	.col-lg-3 {
+		width: 33.3%;
+		float: left;
+	}
+}
+
+
+/** Tablet **/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-2, .col-md-1  {
+		float: left;
+	}
+
+	.col-md-2 {
+		width: 50%;
+	}
+
+	.col-md-1 {
+		width: 100%;
+	}
+}
+
+
+/** Mobile **/
+@media (max-width: 767px) {
+	.col-sm-1 {
+		float: left;
+		width: 100%;
+	}
+}
