@@ -1,0 +1,68 @@
+/* Jumbotron */
+
+body {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.jumbotron {
+	background: url("/images/Palm-Trees-and-Moon.jpg") no-repeat center;
+	color: white;
+	text-shadow: 3px 3px 3px black;
+	height: 100vh;
+	padding-top: 20px;
+}
+
+.jumbotron-logo {
+	text-align: center;
+}
+
+.jumbotron-logo img {
+	width: 350px;
+}
+
+.jumbotron .container h1 {
+	font-size: 9em;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: right;
+}
+
+.jumbotron .container p {
+	text-align: right;
+	font-size: 1.7em;
+}
+
+/**** MEDIA *****/
+
+/***** Tablet *****/
+@media (min-width: 768px) and (max-width: 991px) {
+	.jumbotron-logo img {
+	}
+
+	.jumbotron .container h1 {
+	}
+
+}
+/***** Mobile *****/
+@media (max-width: 767px) {
+	.jumbotron-logo img {
+		padding-top: 50px;
+		width: 200px;
+		padding-bottom: 70px;
+	}
+
+	.jumbotron {
+		/*height: 600px;*/
+	}
+
+	.jumbotron .container h1 {
+		font-size: 5em;
+	}
+
+	.jumbotron .container p {
+		font-size: 1.2em;
+
+	}
+}
+
