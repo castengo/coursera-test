@@ -10,6 +10,7 @@ body {
 	text-shadow: 3px 3px 3px black;
 	height: 100vh;
 	padding-top: 20px;
+	margin-bottom: 0;
 }
 
 .jumbotron-logo {
@@ -17,12 +18,13 @@ body {
 }
 
 .jumbotron-logo img {
-	width: 350px;
+	width: 300px;
+	padding-bottom: 10px;
 }
 
 .jumbotron .container h1 {
-	font-size: 9em;
-	margin-bottom: 20px;
+	font-size: 7em;
+	margin-bottom: 40px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	text-align: right;
@@ -30,39 +32,84 @@ body {
 
 .jumbotron .container p {
 	text-align: right;
-	font-size: 1.7em;
+	font-size: 1.8em;
+	padding-bottom: 10px;
+}
+
+.jumbotron .container span {
+	padding-top: 20px;
+}
+
+/* NavBar */
+
+#nav {
+	background-color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #666B6E;
 }
 
 /**** MEDIA *****/
 
-/***** Tablet *****/
-@media (min-width: 768px) and (max-width: 991px) {
-	.jumbotron-logo img {
-	}
+/*** Large Desktops ****/
 
-	.jumbotron .container h1 {
+@media (min-width: 1170px) {
+	.jumbotron .container img {
+		padding-top: 80px;
+		padding-bottom: 80px;
 	}
-
 }
-/***** Mobile *****/
-@media (max-width: 767px) {
-	.jumbotron-logo img {
-		padding-top: 50px;
-		width: 200px;
-		padding-bottom: 70px;
-	}
 
-	.jumbotron {
-		/*height: 600px;*/
+/***** Mobile *****/
+@media (max-width: 766px) {
+	.jumbotron-logo img {
+		padding-top: 5vw;
+		width: 70vw;
+		padding-bottom: 4vw;
 	}
 
 	.jumbotron .container h1 {
-		font-size: 5em;
+		font-size: 20vw;
+		margin-bottom: 8vw;
 	}
 
 	.jumbotron .container p {
-		font-size: 1.2em;
-
+		font-size: 5vw;
+		padding-bottom: 0.5vw;
 	}
 }
 
+/*** Rotated phones ***/
+
+@media (max-width: 766px) and (orientation:landscape) {
+	.jumbotron .container img {
+		padding-top: 2vw;
+		width: 15vw;
+		padding-bottom: 2vw;
+	}
+
+	.jumbotron .container h1 {
+		font-size: 7vw;
+		margin-bottom: 20px;
+	}
+
+	.jumbotron .container p {
+		font-size: 2.4vw;
+		padding-bottom: 0.5vw;
+	}
+}
+
+/*** Portrait Tablets ***/
+
+@media (min-width: 767px) and (max-width: 991px) and (orientation:portrait) {
+	.jumbotron .container img {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	.jumbotron {
+		height: 100%;
+	}
+
+}
