@@ -54,17 +54,18 @@ body {
 
 /*** Large Desktops ****/
 
-@media (min-width: 1170px) {
+@media (min-width: 1300px) {
 	.jumbotron .container img {
-		padding-top: 80px;
-		padding-bottom: 80px;
+		padding-top: 40px;
+		padding-bottom: 40px;
 	}
 }
+
 
 /***** Mobile *****/
 @media (max-width: 766px) {
 	.jumbotron-logo img {
-		padding-top: 5vw;
+		padding-top: 3vw;
 		width: 70vw;
 		padding-bottom: 4vw;
 	}
@@ -76,7 +77,11 @@ body {
 
 	.jumbotron .container p {
 		font-size: 5vw;
-		padding-bottom: 0.5vw;
+		padding-bottom: 0.1vw;
+	}
+
+	.jumbotron .container span {
+		padding-top: 3vw;
 	}
 }
 
