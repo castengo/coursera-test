@@ -1,0 +1,20 @@
+
+  <li ng-repeat="item in items">
+    <hr>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          {{ item.name }}
+        </div>
+        <div class="col-md-1">
+          {{ item.short_name }}
+        </div>
+        <div class="col-md-6">
+          {{ item.description}}
+        </div>
+        <div class="col-md-2">
+          <button ng-click="onRemove({index: $index})" class="btn btn-warning">Remove Item</button>
+        </div>
+      </div>
+    </div>
+  </li>
