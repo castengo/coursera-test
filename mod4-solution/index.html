@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app='MenuApp'>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Menu Application</title>
+  </head>
+  <body>
+
+
+    <div class="container-fluid">
+
+      <h1>Welcome to our Chinese Restaurant Page!</h1>
+
+      <ul class="nav nav-pills">
+        <li><a ui-sref="home" ui-sref-active="active">Home</a></li>
+        <li><a ui-sref="categories" ui-sref-active="active">Menu Categories</a></li>
+      </ul>
+
+      <ui-view></ui-view>
+    </div>
+
+    <!-- Libraries -->
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-ui-router.min.js"></script>
+
+    <!-- Modules -->
+    <script src="src/menuapp/menuapp.module.js"></script>
+    <script src="src/data/data.module.js"></script>
+
+    <!-- Routes -->
+    <script src="src/routes.js"></script>
+
+    <!-- 'Data' module artifacts-->
+    <script src="src/data/menudata.service.js"></script>
+    <script src="src/data/categories.component.js"></script>
+    <script src="src/data/items.component.js"></script>
+    <script src="src/data/categories.controller.js"></script>
+    <script src="src/data/items.controller.js"></script>
+
+
+
+
+
+  </body>
+</html>
