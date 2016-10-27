@@ -1,0 +1,63 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  height: 800px;
+  background:url(Engagements-88.jpg) no-repeat center center;
+  background-size: cover;
+
+}
+
+.main {
+	position: relative;
+	top: 200px;
+  left:10px;
+	width: 50%;
+	text-align: center;
+}
+
+.main h1 {
+  color: #fff;
+  font-family: 'Great Vibes', cursive;
+  font-size: 80px;
+  font-weight: 700px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 1px #33291F;
+}
+
+.main h2 {
+  font-family: 'Great Vibes', cursive;
+  color: rgba(255, 204, 153);
+  font-size: 30px;
+  font-weight: 700px;
+  margin-top: 5px;
+  margin-bottom: 70px;
+
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.sep {
+  margin: 50px 20px;
+  padding: 0 10px;
+}
+
+.btn {
+  background-color: #E6B85C;
+  color: #fff;
+  font-family: 'Amaranth', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: auto;
+}

@@ -1,0 +1,393 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Amaranth', sans-serif;
+  background-image:url(http://www.zingerbugimages.com/backgrounds/peach_colored_mini_flowers.gif);background-position:top left;background-repeat:repeat;background-attachment:fixed;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* Header */
+
+.header {
+  height: 180px;
+  text-align: center;
+  background-color: rgba(255, 204, 153, 0.6);
+  position: relative;
+  top: 210px;
+  min-width: 650px;
+}
+
+.header h1, .header2 h1 {
+  color: #fff;
+  font-family: 'Great Vibes', cursive;
+  font-size: 75px;
+  font-weight: 700;
+  text-shadow: 2px 2px 1px #33291F;
+  padding-top: 30px;
+  margin: 0;
+}
+
+.header h2 {
+  color: #fff;
+  font-family: 'Amaranth', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin: 0;
+}
+
+.welcome {
+  height: 600px;
+  background: url(Engagements-13A.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.wedding {
+  height: 600px;
+  background: url(Engagements-73A_Fotor.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.schedule {
+  height: 600px;
+  background: url(Engagements-45A_Fotor_.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.accomodations {
+  height: 600px;
+  background: url(Engagements-53_Fotor_.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.registry {
+  height: 600px;
+  background: url(Engagements-52_F.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.rsvp {
+  height: 600px;
+  background: url(Engagements-61A_Fotor.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+/* Nav Bar */
+
+.menu {
+	background-color: #E6B85C;
+}
+
+
+.nav {
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.nav li {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  display: inline;
+  padding: 15px;
+}
+
+.nav a:visited, .nav a:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav a:hover, a:hover {
+  color: #FFCC66;
+}
+
+/* Main Boxes */
+
+.box {
+	background-color: rgba(255, 204, 153, 0.8);
+  width: 650px;
+	margin: 25px auto;
+	padding: 30px 15px;
+  text-align: justify;
+  border-radius: 15px;
+}
+
+.box h1 {
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  padding-bottom: 15px;
+  text-shadow: 1px 1px 0 #000000;
+  text-align: center;
+}
+
+
+.box p {
+	font-family: 'Josefin Slab', serif;
+	font-size: 18px;
+  line-height: 20px;
+}
+
+.box img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 10px inherit;
+}
+
+
+.box h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+.box h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+.registries {
+  text-align: center;
+}
+
+.registries img {
+  padding-right: 10px;
+}
+
+
+/* Schedule box */
+
+.schedulebox h1 {
+  padding-top: 10px;
+  text-align: left;
+  font-size: 36px;
+}
+
+.schedulebox h3 {
+  text-align: left;
+  font-size: 24px;
+}
+
+.schedulebox p {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.schedule-pic {
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  border: 10px solid white;
+}
+
+/* Updates form */
+
+form {
+  text-align: center;
+}
+
+.form-field {
+  width: 200px;
+  height: 22px;
+  margin: 5px;
+  border-radius: 5px;
+  font-family: 'Josefin Slab', serif;
+  padding-left: 10px;
+  font-size: 1em;
+  color: #484848;
+}
+
+/* RSVP page */
+
+.invitebody {
+  background: url(http://thrivelasvegas.com/wp-content/uploads/2015/08/vegas.jpg) no-repeat center center;
+  background-size: cover;
+  height: 875px;
+}
+
+.wedding-card {
+  text-align: center;
+  height: 780px;
+}
+
+.card {
+  height: 700px;
+  border-radius: 25px;
+  position: relative;
+  top: 50px;
+  box-shadow: 10px 10px 10px black;
+}
+
+.invite-active {
+  display: none;
+}
+
+.invite-button {
+  text-align: center;
+}
+
+/* rsvp */
+
+.rsvpbox {
+  background-color: rgba(255, 255, 240, 0.9);
+  width: 50%;
+  min-width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.rsvptext {
+  font-family: 'Josefin Slab', serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+  padding: 20px 0px;
+}
+
+.rsvp-info {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: justify;
+}
+
+.rsvpHeading {
+  background-color: rgba(255, 204, 153, 0.6);
+  margin-top: 0;
+}
+
+.rsvptext h1 {
+   font-family: 'Dancing Script', cursive;
+   font-size: 50px;
+   text-align: center;
+   padding: 5px 0px;
+   color: white;
+   text-shadow: 3px 2px 1px black;
+   margin-top: 0;
+}
+
+.rsvptext p {
+  line-height: 20px;
+}
+
+.rsvp-section {
+  text-align: center;
+  padding-bottom: 20px;
+  margin: auto;
+  overflow: auto;
+}
+
+.option-separate {
+  padding: 10px;
+  font-family: 'Josefin Slab', sans;
+  font-size: 18px;
+}
+
+#food-option {
+  display: none;
+}
+
+/* rsvp help section */
+
+#help {
+  color: blue;
+  text-decoration: underline;
+  padding: 0;
+  margin: 0;
+  padding-right: 10px;
+  text-align: right;
+}
+
+#help:hover {
+  cursor: pointer;
+}
+
+.help-background {
+  display: none;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 204, 153, 0.9);
+}
+
+.help-box {
+  position: relative;
+  top: 90px;
+  width: 600px;
+  border-radius: 10px;
+  border: 2px solid;
+  margin: auto;
+  background-color: rgba(255, 255, 240, 0.9);
+  text-align: right;
+}
+
+.help-text {
+  text-align: justify;
+  padding: 20px;
+  font-family: 'Josefin Slab', serif;
+  font-size: 18px;
+  padding-top: 0;
+  line-height: 20px;
+}
+
+#close-icon {
+  width: 20px;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+/* other */
+
+.btn {
+  background-color: #E6B85C;
+  color: #fff;
+  font-family: 'Amaranth', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 10px 10px;
+}
+
+.btn:hover, #close-icon {
+  cursor: pointer;
+}
+
+.map {
+  text-align: center;
+}
+
+.error {
+  color: #FF0000;
+}
+
+.submitted {
+  color: blue;
+  font-size: 28px;
+}
+
+.footer {
+	padding: 10px 0;
+	text-align: center;
+}
+
+.footer p {
+	font-size: 12px;
+}
